@@ -12,7 +12,7 @@ ___
 This package can be deployed automatically using NPM:
 
 ```
-npm i @wikiline/webfont-roboto
+npm i @wikiline/webfont-ubuntu
 ```
 
 ## Usage (CSS)
