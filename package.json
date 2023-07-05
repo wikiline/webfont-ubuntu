@@ -1,0 +1,37 @@
+{
+  "name": "@wikiline/webfont-ubuntu",
+  "version": "1.0.0",
+  "description": "Package for integrating WebFont Ubuntu",
+  "main": "./src/css/all.css",
+  "files": [
+    "./fonts/*.{woff,woff2}",
+    "./src/**/*.{css,scss}"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikiline/webfont-ubuntu.git"
+  },
+  "keywords": [
+    "font",
+    "typeface",
+    "webfont",
+    "woff",
+    "woff2",
+    "ubuntu"
+  ],
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wikiline/webfont-ubuntu/issues"
+  },
+  "homepage": "https://github.com/wikiline/webfont-ubuntu#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
