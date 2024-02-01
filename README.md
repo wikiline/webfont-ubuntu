@@ -64,13 +64,64 @@ variables are not defined:
 }
 ```
 
-## Usage (SCSS)
+## Usage (LESS)
 
 Font files are located in the `fonts/` directory. To import all fonts, you can use:
 
 ```scss
 body {
     font-family: 'Ubuntu', sans-serif;
+}
+```
+
+### Importing
+
+```less
+@import "~@wikiline/webfont-ubuntu/src/less/all";
+@import "~@wikiline/webfont-ubuntu/src/less/all-normal";
+@import "~@wikiline/webfont-ubuntu/src/less/all-italic";
+```
+
+To import specific fonts, you can use:
+
+```less
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-300";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-300-normal";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-300-italic";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-400";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-400-normal";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-400-italic";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-500";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-500-normal";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-500-italic";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-700";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-700-normal";
+@import "~@wikiline/webfont-ubuntu/src/less/_weight-700-italic";
+```
+
+### Variables
+
+Each font uses the following LESS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+```less
+@font-display: swap;
+@font-display-ubuntu: swap;
+```
+
+or
+
+```less
+@import "~@wikiline/webfont-ubuntu/src/less/config/_variables";
+```
+
+## Usage (SCSS)
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+```scss
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
 ```
 
