@@ -1,11 +1,13 @@
 {
   "name": "@wikiline/webfont-ubuntu",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Package for integrating WebFont Ubuntu",
-  "main": "./src/css/all.css",
+  "main": "./css/all.css",
   "files": [
+    "./css/*.{css}",
     "./fonts/*.{woff,woff2}",
-    "./src/**/*.{css,less,scss}"
+    "./less/**/*.{less}",
+    "./scss/**/*.{scss}"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
