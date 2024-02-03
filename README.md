@@ -28,26 +28,26 @@ body {
 ### Importing
 
 ```css
-@import "~@wikiline/webfont-ubuntu/src/css/all.css";
-@import "~@wikiline/webfont-ubuntu/src/css/all-normal.css";
-@import "~@wikiline/webfont-ubuntu/src/css/all-italic.css";
+@import "~@wikiline/webfont-ubuntu/css/all.css";
+@import "~@wikiline/webfont-ubuntu/css/all-normal.css";
+@import "~@wikiline/webfont-ubuntu/css/all-italic.css";
 ```
 
 To import specific fonts, you can use:
 
 ```css
-@import "~@wikiline/webfont-ubuntu/src/css/weight-300.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-300-normal.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-300-italic.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-400.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-400-normal.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-400-italic.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-500.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-500-normal.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-500-italic.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-700.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-700-normal.css";
-@import "~@wikiline/webfont-ubuntu/src/css/weight-700-italic.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-300.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-300-normal.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-300-italic.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-400.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-400-normal.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-400-italic.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-500.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-500-normal.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-500-italic.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-700.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-700-normal.css";
+@import "~@wikiline/webfont-ubuntu/css/weight-700-italic.css";
 ```
 
 Note: Also, each file is presented in a minimized form.
@@ -77,26 +77,26 @@ body {
 ### Importing
 
 ```less
-@import "~@wikiline/webfont-ubuntu/src/less/all";
-@import "~@wikiline/webfont-ubuntu/src/less/all-normal";
-@import "~@wikiline/webfont-ubuntu/src/less/all-italic";
+@import "~@wikiline/webfont-ubuntu/less/all";
+@import "~@wikiline/webfont-ubuntu/less/all-normal";
+@import "~@wikiline/webfont-ubuntu/less/all-italic";
 ```
 
 To import specific fonts, you can use:
 
 ```less
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-300";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-300-normal";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-300-italic";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-400";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-400-normal";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-400-italic";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-500";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-500-normal";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-500-italic";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-700";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-700-normal";
-@import "~@wikiline/webfont-ubuntu/src/less/_weight-700-italic";
+@import "~@wikiline/webfont-ubuntu/less/_weight-300";
+@import "~@wikiline/webfont-ubuntu/less/_weight-300-normal";
+@import "~@wikiline/webfont-ubuntu/less/_weight-300-italic";
+@import "~@wikiline/webfont-ubuntu/less/_weight-400";
+@import "~@wikiline/webfont-ubuntu/less/_weight-400-normal";
+@import "~@wikiline/webfont-ubuntu/less/_weight-400-italic";
+@import "~@wikiline/webfont-ubuntu/less/_weight-500";
+@import "~@wikiline/webfont-ubuntu/less/_weight-500-normal";
+@import "~@wikiline/webfont-ubuntu/less/_weight-500-italic";
+@import "~@wikiline/webfont-ubuntu/less/_weight-700";
+@import "~@wikiline/webfont-ubuntu/less/_weight-700-normal";
+@import "~@wikiline/webfont-ubuntu/less/_weight-700-italic";
 ```
 
 ### Variables
@@ -112,7 +112,7 @@ variables are not defined:
 or
 
 ```less
-@import "~@wikiline/webfont-ubuntu/src/less/config/_variables";
+@import "~@wikiline/webfont-ubuntu/less/config/_variables";
 ```
 
 ## Usage (SCSS)
@@ -128,26 +128,26 @@ body {
 ### Importing
 
 ```scss
-@import "~@wikiline/webfont-ubuntu/src/scss/all";
-@import "~@wikiline/webfont-ubuntu/src/scss/all-normal";
-@import "~@wikiline/webfont-ubuntu/src/scss/all-italic";
+@import "~@wikiline/webfont-ubuntu/scss/all";
+@import "~@wikiline/webfont-ubuntu/scss/all-normal";
+@import "~@wikiline/webfont-ubuntu/scss/all-italic";
 ```
 
 To import specific fonts, you can use:
 
 ```scss
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-300";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-300-normal";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-300-italic";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-400";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-400-normal";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-400-italic";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-500";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-500-normal";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-500-italic";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-700";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-700-normal";
-@import "~@wikiline/webfont-ubuntu/src/scss/weight-700-italic";
+@import "~@wikiline/webfont-ubuntu/scss/weight-300";
+@import "~@wikiline/webfont-ubuntu/scss/weight-300-normal";
+@import "~@wikiline/webfont-ubuntu/scss/weight-300-italic";
+@import "~@wikiline/webfont-ubuntu/scss/weight-400";
+@import "~@wikiline/webfont-ubuntu/scss/weight-400-normal";
+@import "~@wikiline/webfont-ubuntu/scss/weight-400-italic";
+@import "~@wikiline/webfont-ubuntu/scss/weight-500";
+@import "~@wikiline/webfont-ubuntu/scss/weight-500-normal";
+@import "~@wikiline/webfont-ubuntu/scss/weight-500-italic";
+@import "~@wikiline/webfont-ubuntu/scss/weight-700";
+@import "~@wikiline/webfont-ubuntu/scss/weight-700-normal";
+@import "~@wikiline/webfont-ubuntu/scss/weight-700-italic";
 ```
 
 ### Variables

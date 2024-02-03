@@ -1,9 +1,0 @@
-@import "./config/variables";
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../../fonts/ubuntu-300-normal.woff2') format('woff2'), url('../../fonts/ubuntu-300-normal.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: $font-display-ubuntu;
-}
